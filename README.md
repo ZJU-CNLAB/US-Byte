@@ -1,6 +1,6 @@
 # US-Byte: An Efficient Communication Mechanism for Scheduling Unequal-sized Tensor Blocks in Distributed Deep Learning #  
 ## Introduction ##
-This repository contains the codes of the US-Byte paper submitted to IEEE TPDS. US-Byte is a communication mechanism for scheduling unequal-sized tensor blocks implemented on the PyTorch framework. US-Byte outperforms the state-of-the-art communication scheduling mechanisms ByteScheduler and WFBP.  
+This repository contains the codes of the US-Byte paper submitted to *IEEE TPDS*. US-Byte is a communication mechanism for scheduling unequal-sized tensor blocks implemented on the PyTorch framework. US-Byte outperforms the state-of-the-art communication scheduling mechanisms ByteScheduler and WFBP.  
 <div align=center><img src="system%20architecture.png" width="500"/></div> 
 
 ## Installation ##
