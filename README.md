@@ -29,3 +29,5 @@ chmod 777 ./dist.sh
 dnn=vgg16 nworkers=4 ./dist.sh
 ```  
 Assume that you have 4 GPUs on a single node and everything works well, you will see that there are 4 workers running at a single node training the VGG16 model with the ImageNet2012 dataset using the US-Byte mechanism. The partition size is obtained by Bayesian optimization, and you can tune it manually according to [ByteScheduler's communication scheduling](https://github.com/bytedance/byteps/blob/bytescheduler/bytescheduler/docs/scheduling.md).
+### Papers ###
+* Y. Gao, B. Hu, M. B. Mashhadi, A. L. Jin, P. Xiao, & C. Wu, "US-Byte: An Efficient Communication Framework for Scheduling Unequal-Sized Tensor Blocks in Distributed Deep Learning," IEEE Transactions on Parallel and Distributed Systems, 2023.
